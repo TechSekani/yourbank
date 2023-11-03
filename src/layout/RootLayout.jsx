@@ -6,7 +6,7 @@ const RootLayout = () => {
   return (
     <>
       <Navbar />
-      <main className=" mt-[90px] px-[90px]">
+      <main className=" overflow-x-hidden mt-[90px] md:px-[90px]">
         <Outlet />
       </main>
     </>
