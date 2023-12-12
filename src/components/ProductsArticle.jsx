@@ -62,7 +62,7 @@ const ProductsArticle = () => {
           </p>
         </div>
         <div className=" flex items-end">
-          <span className=" p-2 bg-[#1C1C1C] border-[#262626] rounded-[80px]">
+          <span className=" p-2 bg-[#1C1C1C] border border-[#262626] rounded-[80px]">
             <Button
               text={"For Individuals"}
               style="bg-[#CAFF33] text-[#262626]"
