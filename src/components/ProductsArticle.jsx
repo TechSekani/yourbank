@@ -21,7 +21,7 @@ const DATA = [
     description:
       "Build your savings with our competitive interest rates and flexible savings account options. Whether you're saving for a specific goal or want to grow your wealth over time, we have the right account for you.",
     icon: <ArchiveBoxArrowDownIcon className="w-5 text-[#CAFF33]" />,
-    border: 'border-l border-r border-[#262626]'
+    border: 'border-t border-b md:border-0 md:border-l md:border-r border-[#262626]'
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const DATA = [
 
 const Card = ({ icon, title, description, border }) => {
   return (
-    <div className={`p-8 w-[30%] flex flex-col items-center gap-3 text-center ${border}`}>
+    <div className={`p-8 md:w-[30%] flex flex-col items-center gap-3 text-center ${border}`}>
       <div className=" bg-iconContainer rounded-[50px] w-fit p-2">
         <div className=" hover:animate-pulse duration-100 bg-iconSubContainer border-[#CAFF33] rounded-[50px] w-fit p-2">
           {icon}
@@ -49,9 +49,9 @@ const Card = ({ icon, title, description, border }) => {
 
 const ProductsArticle = () => {
   return (
-    <article className=" py-20 flex flex-col gap-24">
-      <div className=" flex justify-between">
-        <div className=" flex flex-col gap-7 w-[55%]">
+    <article className=" px-4 py-20 flex flex-col gap-10 md:gap-24">
+      <div className=" flex flex-col md:flex-row justify-between md:items-end items-center text-center md:text-start  gap-5 md:gap-0">
+        <div className=" flex flex-col gap-3 md:gap-7 md:w-[55%]">
           <h3 className=" text-4xl">
             Our <span className="text-[#CAFF33]">Products</span>
           </h3>
@@ -71,7 +71,7 @@ const ProductsArticle = () => {
           </span>
         </div>
       </div>
-      <section className="flex gap-10">
+      <section className="flex flex-col md:flex-row gap-10">
         {DATA.map(({ id, icon, title, description, border }) => (
           <Card key={id} icon={icon} title={title} description={description} border={border} />
         ))}

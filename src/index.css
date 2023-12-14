@@ -15,6 +15,20 @@ body {
   overflow-x: hidden;
 }
 
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 0px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #262626;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #CAFF33;
+  border-radius: 20px;
+}
+
 .nav_links .active,
 .nav_links a:hover {
   display: flex;

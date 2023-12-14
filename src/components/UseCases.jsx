@@ -4,19 +4,19 @@ import {USECASE} from "../utils/Data";
 
 const UseCases = () => {
   return (
-    <section className=" mb-16">
+    <section className=" mb-16 text-center md:text-start px-4 md:px-6">
       <h2 className="text-4xl text-[#CAFF33]">Use Cases</h2>
       <p className=" text-xs opacity-70 mt-2">
         At YourBank, we cater to the diverse needs of individuals and businesses
         alike, offering a wide range of financial solutions
       </p>
       {USECASE.map(({ id, title, text, iconCard, percent, style }) => (
-        <section key={id} className={`${style} flex justify-between items-center mt-12`}>
-          <div className="w-[45%] bg-[#1C1C1C] rounded-[20px] flex flex-wrap gap-3 p-6 text-center border border-[#262626] ">
+        <section key={id} className={`${style} flex flex-col md:flex-row justify-between items-center mt-12`}>
+          <div className="md:w-[45%] bg-[#1C1C1C] rounded-[20px] flex flex-wrap gap-2 md:gap-3 p-6 text-center border border-[#262626] ">
             {iconCard.map((card, index) => (
               <div
                 key={index}
-                className="w-[48%] rounded-[16px] flex flex-col items-center gap-3 border border-[#262626] bg-[#1A1A1A] p-8"
+                className="w-[48%] rounded-[16px] flex flex-col items-center gap-3 border border-[#262626] bg-[#1A1A1A] p-3 md:p-8"
               >
                 <div className=" bg-iconContainer rounded-[50px] w-fit p-2">
                   <div className=" hover:animate-pulse duration-100 bg-iconSubContainer border border-[#CAFF33] rounded-full p-2">
@@ -28,16 +28,16 @@ const UseCases = () => {
               </div>
             ))}
           </div>
-          <article className="w-[45%] [&>h3]:text-xl flex flex-col items-start gap-2">
+          <article className="md:w-[45%] [&>h3]:text-2xl flex flex-col mt-8 md:mt-0 items-center md:items-start gap-2">
             <h3>{title}</h3>
             <p className=" text-xs opacity-70">{text}</p>
-            <div className=" flex">
+            <div className=" flex gap-4 md:gap-0 flex-col md:flex-row">
               {percent.map((percentage, index) => (
-                <span key={index} className=" w-2/5 p-5">
-                  <h4 className=" text-2xl text-[#CAFF33]">
+                <span key={index} className=" md:w-2/5 p-5">
+                  <h4 className=" text-4xl md:text-2xl text-[#CAFF33]">
                     {percentage.number}
                   </h4>
-                  <p className=" text-xs opacity-70">
+                  <p className=" md:text-xs opacity-70">
                     {percentage.description}
                   </p>
                 </span>
@@ -45,7 +45,7 @@ const UseCases = () => {
             </div>
             <Button
               text="Learn More"
-              style={" bg-[#1C1C1C] border border-[#262626]"}
+              style={" w-fit mt-4 md:mt-0 bg-[#1C1C1C] border border-[#262626]"}
             />
           </article>
         </section>
