@@ -13,7 +13,7 @@ const Hero = () => {
           <Icon icon="mdi:tick-decagram" color="#caff33" /> No LLC Required, No
           Credit Check.
         </span>
-        <h3 className=" text-[1.8rem] md:text-[38px] font-medium leading-tight">
+        <h3 className=" text-[1.7rem] md:text-[38px] font-medium leading-tight">
           Welcome to YourBank <br /> Empowering Your{" "}
           <span className=" text-[#CAFF33]">
             Financial Journey

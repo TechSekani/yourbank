@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className=" z-50 fixed top-8 left-4 md:left-[90px] flex justify-between items-center w-[91%] md:w-[87%] py-2 px-5 bg-[#1C1C1C] border border-[#262626] rounded-[100px]">
       <Link to="/">
-        <img src={logo} className=" w-[90px] md:w-[110px]" alt="" />
+        <img src={logo} className="w-[110px]" alt="" />
       </Link>
       <div className=" hidden md:flex w-[65%] justify-between">
         <div className="nav_links flex justify-center items-center gap-3 [&>*]:py-2 [&>*]:px-5 text-sm">
