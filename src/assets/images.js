@@ -1,4 +1,4 @@
-import logo from './logo.png'
+import logo from './Logo.png'
 import arrows from './Abstract Design.png'
 import objects from './Objects.png'
 import heroImg from './Container.png'
