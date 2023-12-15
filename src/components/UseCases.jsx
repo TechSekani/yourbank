@@ -4,7 +4,7 @@ import {USECASE} from "../utils/Data";
 
 const UseCases = () => {
   return (
-    <section className=" mb-16 text-center md:text-start px-4 md:px-6">
+    <section className=" md:my-10 mb-16 text-center md:text-start px-4 md:px-6">
       <h2 className="text-4xl text-[#CAFF33]">Use Cases</h2>
       <p className=" text-xs opacity-70 mt-2">
         At YourBank, we cater to the diverse needs of individuals and businesses

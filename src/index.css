@@ -7,6 +7,9 @@
 #root{
     position: relative;
 }
+*{
+  /* outline: 1px solid red; */
+}
 
 body {
   font-family: "Lexend", sans-serif;

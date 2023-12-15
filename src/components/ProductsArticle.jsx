@@ -71,7 +71,7 @@ const ProductsArticle = () => {
           </span>
         </div>
       </div>
-      <section className="flex flex-col md:flex-row gap-10">
+      <section className="flex flex-col md:flex-row justify-center gap-10">
         {DATA.map(({ id, icon, title, description, border }) => (
           <Card key={id} icon={icon} title={title} description={description} border={border} />
         ))}

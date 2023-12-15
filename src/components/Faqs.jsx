@@ -1,7 +1,6 @@
 import React from "react";
 import { FAQs } from "../utils/Data";
 import Button from "./Button";
-import { ArrowDownIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 
 const Accordion = ({ question, answer }) => {
@@ -31,7 +30,7 @@ const [isShown, setIsShown] = useState(true)
       </div>
       <div className="flex justify-center">
         <Button
-          text={`${isShown ? 'Load All FAQs ⮟' : '^'} `}
+          text={`${isShown ? 'Load All FAQs ▼' : '▲'} `}
           style=" flex justify-center items-center mt-2 z-40 border border-[#262626]"
           onClick={() => setIsShown(!isShown)}
         />

@@ -14,7 +14,7 @@ const OurFeatures = () => {
   const cards = currentFeature[0]?.card;
 
   return (
-    <section className=" text-center md:text-start px-4">
+    <section className=" md:my-24 text-center md:text-start px-4">
       <h2 className=" text-4xl [&>*]:text-[#CAFF33]">
         Our <span>Features</span>
       </h2>
