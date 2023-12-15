@@ -38,7 +38,7 @@ const Testimonials = () => {
           </span>
         </div>
       </div>
-      <section className="relative mx-auto mt-10 md:w-[92%] overflow-auto before:absolute before:z-30 before:left-0 before:bottom-0 before:w-[70px] before:h-full before:bg-gradient-to-r before:from-[#1a1a1a] before:to-transparent after:absolute after:z-30 after:bottom-0 after:right-0 after:w-[70px] after:h-full after:bg-gradient-to-l after:from-[#1a1a1a] after:to-transparent">
+      <section className=" relative mx-auto mt-10 md:w-[92%] overflow-auto before:absolute before:z-30 before:left-0 before:bottom-0 before:w-[70px] before:h-full before:bg-gradient-to-r before:from-[#1a1a1a] before:to-transparent after:absolute after:z-30 after:bottom-0 after:right-0 after:w-[70px] after:h-full after:bg-gradient-to-l after:from-[#1a1a1a] after:to-transparent">
         <div
           className=" w-fit flex transition ease-in-out duration-40"
           style={{
@@ -128,6 +128,7 @@ const Testimonials = () => {
           </div>
         </div>
       </section>
+      <div className="absolute w-full h-[200px] bg-transparent z-40 bottom-0"></div>
         <div className="absolute left-0 md:bottom-20 w-full md:space-x-[95%] flex justify-center gap-4 mt-4 ">
           <button
             className=" p-3 bg-[#1c1c1c] rounded-full"
