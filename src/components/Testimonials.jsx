@@ -128,7 +128,7 @@ const Testimonials = () => {
           </div>
         </div>
       </section>
-      <div className="absolute w-full h-[200px] bg-transparent z-40 bottom-0"></div>
+      <div className="absolute w-full h-[200px] bg-transparent z-40 left-0 bottom-0"></div>
         <div className="absolute left-0 md:bottom-20 w-full md:space-x-[95%] flex justify-center gap-4 mt-4 ">
           <button
             className=" p-3 bg-[#1c1c1c] rounded-full"
