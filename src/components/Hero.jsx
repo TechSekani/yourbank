@@ -6,7 +6,7 @@ import { arrows, heroImg, objects } from "../assets/images";
 
 const Hero = () => {
   return (
-    <section className="relative flex md:flex-row flex-col gap-16 md:gap-[90px] md:h-[87vh]">
+    <section className=" relative flex md:flex-row flex-col gap-16 md:gap-[90px] md:h-[82vh]">
       <img src={objects} alt="" className="absolute w-[80%] md:w-2/4 md:-left-[10%] -top-[10%] md:-top-[16%]" />
       <div className=" flex flex-col items-center md:items-start text-center md:text-start gap-4 md:w-[50%] px-8 md:px-0 pt-10 md:pt-16">
         <span className=" flex items-center w-fit text-xs p-2 gap-1 bg-[#262626] rounded-[80px]">

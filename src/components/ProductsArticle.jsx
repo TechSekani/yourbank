@@ -49,7 +49,7 @@ const Card = ({ icon, title, description, border }) => {
 
 const ProductsArticle = () => {
   return (
-    <article className=" px-4 py-20 flex flex-col gap-10 md:gap-24">
+    <article className=" w-full mx-auto px-4 py-20 flex flex-col gap-10 md:gap-24">
       <div className=" flex flex-col md:flex-row justify-between md:items-end items-center text-center md:text-start  gap-5 md:gap-0">
         <div className=" flex flex-col gap-3 md:gap-7 md:w-[55%]">
           <h3 className=" text-4xl">
