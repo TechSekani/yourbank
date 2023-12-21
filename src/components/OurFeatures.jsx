@@ -1,6 +1,6 @@
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 import { useState, useEffect } from "react";
-import { FEATURES } from "../utils/Data";
+import { FEATURES } from "../utils/HomeData";
 import Button from "./Button";
 
 const OurFeatures = () => {

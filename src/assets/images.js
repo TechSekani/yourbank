@@ -13,6 +13,8 @@ import icon5 from './Icon-5.png'
 import icon from './Icon.png'
 import ctaBg from './cta-bg.webp'
 import radical from './radical.png'
+import CareerImg from './Image.png'
+import PagesAbstr from './PagesAbstr.png'
 
 
 export {
@@ -30,5 +32,8 @@ export {
     icon5,
     icon,
     ctaBg,
-    radical
+    radical,
+    CareerImg,
+    PagesAbstr
+
 }

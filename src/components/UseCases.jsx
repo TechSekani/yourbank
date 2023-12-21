@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import {USECASE} from "../utils/Data";
+import {USECASE} from "../utils/HomeData";
 
 const UseCases = () => {
   return (

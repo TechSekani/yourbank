@@ -1,5 +1,5 @@
 import React from "react";
-import { FAQs } from "../utils/Data";
+import { FAQs } from "../utils/HomeData";
 import Button from "./Button";
 import { useState } from "react";
 

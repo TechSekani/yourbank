@@ -12,9 +12,9 @@ const Navbar = () => {
       <div className=" hidden md:flex w-[65%] justify-between">
         <div className="nav_links flex justify-center items-center gap-3 [&>*]:py-2 [&>*]:px-5 text-sm">
           <NavLink to="/">Home</NavLink>
-          <NavLink to="careers">Careers</NavLink>
-          <NavLink to="about">About</NavLink>
-          <NavLink to="security">Security</NavLink>
+          <NavLink to="Careers">Careers</NavLink>
+          <NavLink to="About">About</NavLink>
+          <NavLink to="Security">Security</NavLink>
         </div>
         <div className="flex justify-center items-center gap-4 text-sm">
           <NavLink to="signup">Sign Up</NavLink>
