@@ -3,7 +3,7 @@ import { CareerImg } from "../assets/images";
 
 const PagesHero = () => {
   return (
-    <section className="relative md:w-full h-[89vh] md:h-[80vh] mx-4 md:mx-0 mt-[110px] mb-16 rounded-2xl md:p-[50px]  bg-[#1c1c1c]">
+    <section className="relative md:w-full h-[576px] md:h-[550px] mx-4 md:mx-0 mt-[110px] mb-24 rounded-2xl md:p-[50px]  bg-[#1c1c1c]">
       <div className=" text-center md:text-start absolute top-[210px] md:top-[50px] right-[16px] md:left-[50px] z-20 w-[91%] md:w-[48%] bg-[#1a1a1a] p-6 md:p-10 rounded-2xl md:rounded-none md:rounded-br-3xl">
         <h3 className=" text-2xl md:text-4xl font-medium">
           Welcome to <span>YourBank</span> Careers!

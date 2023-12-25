@@ -15,6 +15,12 @@ import ctaBg from './cta-bg.webp'
 import radical from './radical.png'
 import CareerImg from './Image.png'
 import PagesAbstr from './PagesAbstr.png'
+import icon1 from './Icon-1.png'
+import icon2 from './Icon-2.png'
+import icon3 from './Icon-3.png'
+import icon6 from './Icon-6.png'
+import briefcase from './briefcase.fill.png'
+
 
 
 export {
@@ -34,6 +40,11 @@ export {
     ctaBg,
     radical,
     CareerImg,
-    PagesAbstr
+    PagesAbstr,
+    icon1,
+    icon2,
+    icon3,
+    icon6,
+    briefcase
 
 }

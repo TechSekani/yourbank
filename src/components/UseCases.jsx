@@ -9,7 +9,7 @@ const UseCases = () => {
       <p className=" text-xs opacity-70 mt-2">
         At YourBank, we cater to the diverse needs of individuals and businesses
         alike, offering a wide range of financial solutions
-      </p>
+      </p> 
       {USECASE.map(({ id, title, text, iconCard, percent, style }) => (
         <section key={id} className={`${style} flex flex-col md:flex-row justify-between items-center mt-12`}>
           <div className="md:w-[45%] bg-[#1C1C1C] rounded-[20px] flex flex-wrap gap-2 md:gap-3 p-6 text-center border border-[#262626] ">
