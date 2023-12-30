@@ -19,7 +19,7 @@ const Hero = () => {
             Financial Journey
           </span>
         </h3>
-        <p className=" text-[13px] mb-3 md:mb-7 opacity-70">
+        <p className=" text-sm mb-3 md:mb-7 opacity-70">
           At YourBank, our mission is to provide comprehensive banking solutions
           that empower individuals and businesses to achieve their financial
           goals. We are committed to delivering personalized and innovative

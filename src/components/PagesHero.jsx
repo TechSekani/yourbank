@@ -1,5 +1,5 @@
 import React from "react";
-import { CareerImg } from "../assets/images";
+import { CareerImg, PagesAbstr } from "../assets/images";
 
 const PagesHero = () => {
   return (
@@ -23,6 +23,7 @@ const PagesHero = () => {
         className=" z-10 absolute top-5 md:top-[50px] right-[17px] md:right-[50px] w-[90%] md:w-[60%] md:h-[82%]"
         alt=""
       />
+      <img src={PagesAbstr} className=" absolute top-0 right-0 w-[30%]" alt="" />
     </section>
   );
 };
